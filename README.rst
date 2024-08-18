@@ -1,15 +1,15 @@
 json2html
 =========
 
-Python wrapper to convert ``JSON object`` into a human readable ``HTML`` representation.
+Python wrapper to convert ``JSON`` into a human readable ``HTML Table`` representation.
 
-|Latest Version| |Downloads|
+|Latest Version| |Downloads| [![Build Status](http://img.shields.io/travis/afzalimdad9/json2html/master.svg?style=flat)](http://travis-ci.org/afzalimdad9/json2html)
 
-.. |Latest Version| image:: https://pypip.in/v/json2html/badge.png
-	:target: https://pypi.python.org/pypi/json2html/
+.. |Latest Version| image:: https://img.shields.io/pypi/v/json2html.svg
+    :target: https://pypi.python.org/pypi/json2html
 
-.. |Downloads| image:: https://pypip.in/d/json2html/badge.png
-	:target: https://pypi.python.org/pypi//json2html/
+.. |Downloads| image:: https://img.shields.io/pypi/dm/json2html.svg
+        :target: https://pypi.python.org/pypi/json2html
 
 
 Features
@@ -128,6 +128,13 @@ Live Demo
 ---------
 
 Visit `Online json2html Convertor <http://json2html.herokuapp.com>`_
+
+Tests
+------
+
+.. code-block:: bash
+	cd test/
+	python run_tests.py
 
 Contributors
 ------------
