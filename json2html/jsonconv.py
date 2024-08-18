@@ -4,10 +4,8 @@ JSON 2 HTML convertor
 =====================
 (c) Afzal Imdad 2024
 Source Code: https://github.com/afzalimdad9/json2html
-------------
-Added bootstrap option, converting table-like JSON
-(list of dicts with the same keys used for each dict) to multi-column html tables
-(before it would create a table for each row). This leads to a more readable display.
+--------
+Contributors: Michel Müller(@muellermichel), Varun (@softvar)
 --------
 LICENSE: MIT
 --------
