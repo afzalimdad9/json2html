@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 '''
 JSON 2 HTML convertor
 =====================
@@ -11,7 +12,6 @@ Added bootstrap option, converting table-like JSON
 LICENSE: MIT
 --------
 '''
-# -*- coding: utf-8 -*- 
 
 
 import json
