@@ -145,7 +145,8 @@ Contributors
 	* `Patch #2 <https://github.com/softvar/json2html/pull/2>`_
 	* Added support for clubbing Array of Objects with same keys, more readable format.
 	* Added support for adding custom `table_attributes`.
-
+	* Better error message on bad call of 'convert'
+	
 2. Daniel Lekic: `@lekic <https://github.com/lekic>`_
 	* `Patch #17 <https://github.com/softvar/json2html/pull/17>`_
 	* Fixed issue with one-item lists not rendering correctly.
