@@ -1,3 +1,15 @@
+'''
+JSON 2 HTML convertor
+=====================
+(c) Afzal Imdad 2024
+Source Code: https://github.com/afzalimdad9/json2html
+------------
+LICENSE: MIT
+--------
+'''
+# -*- coding: utf-8 -*- 
+
+
 import json
 import ordereddict
 
