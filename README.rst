@@ -22,3 +22,8 @@ Example Usage
 .. code-block:: python
     from json2html import *
     json2html = convert(json = {'name':'afzalimdad9','age':'21'})
+
+Output:
+
+.. code-block:: bash 
+    <table border="1"><tr><th>age</th><td>21</td></tr><tr><th>name</th><td>afzalimdad9</td></tr></table>
