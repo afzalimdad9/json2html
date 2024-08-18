@@ -1,30 +1,25 @@
-import sys
 from setuptools import setup
-
-required = []
-
-
-if sys.version_info[:2] < (2,7):
-    required.append('simplejson')
-    required.append('ordereddict')
 
 setup(
     name = 'json2html',
     packages = ['json2html'],
-    version = '1.0.3',
-    install_requires=required,
+    version = '1.3.0',
     description = 'JSON to HTML Table Representation',
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     author = 'Afzal Imdad',
     author_email = 'afzalimdad9@gmail.com',
     url = 'https://github.com/afzalimdad9/json2html',
-    download_url = 'https://github.com/afzalimdad9/json2html/tarball/1.0.3',
+    download_url = 'https://github.com/afzalimdad9/json2html/tarball/1.3.0',
     keywords = ['json', 'HTML', 'Table'],
     license = 'MIT',
-    classifiers = (
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 2.5",
-        "Programming Language :: Python :: 2.6",
-        "Programming Language :: Python :: 2.7",
-        ),
+    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
+    classifiers = [
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: Implementation :: CPython',
+    ],
 )
